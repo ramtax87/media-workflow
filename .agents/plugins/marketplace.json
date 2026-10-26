@@ -1,0 +1,12 @@
+{
+  "name": "media-workflow-private",
+  "interface": {"displayName": "Media Workflow — Private"},
+  "plugins": [
+    {
+      "name": "media-workflow",
+      "source": {"source": "local", "path": "./"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity"
+    }
+  ]
+}

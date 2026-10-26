@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "media-workflow",
+  "version": "0.1.0",
+  "description": "Create and prepare media from a website or product list, with resumable jobs, individual review, source provenance and verified delivery files.",
+  "author": {"name": "Ramtax Productions"},
+  "repository": "https://github.com/ramtax87/media-workflow",
+  "keywords": ["media", "product-images", "workflow", "review"],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "Media Workflow",
+        "shortDescription": "Plan, produce, review and deliver media",
+        "defaultPrompt": ["Use Media Workflow to prepare reviewed images for my website or product list and save the work in my private Git repository."]
+      }
+    }
+  }
+}
