@@ -1,0 +1,4 @@
+interface:
+  display_name: "Media Workflow"
+  short_description: "Plan, produce, review and deliver media"
+  default_prompt: "Use $media-workflow to prepare reviewed images for my website or product list in my private Git repository."

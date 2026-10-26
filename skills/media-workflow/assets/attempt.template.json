@@ -1,0 +1,17 @@
+{
+  "jobId": "replace-with-job-id",
+  "status": "in_progress",
+  "selectedAttempt": null,
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "in_flight",
+      "jobSha256": "compute-with-job-hash-before-submission",
+      "tool": "record-the-actual-tool",
+      "prompt": "replace-with-the-exact-prompt-before-submission",
+      "promptSha256": "compute-from-the-exact-UTF-8-prompt",
+      "createdAt": "record-the-actual-time",
+      "outputs": []
+    }
+  ]
+}
