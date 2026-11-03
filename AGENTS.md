@@ -1,7 +1,7 @@
 # Media Workflow
 
-Read `security/BASELINE.md` before development. This is a private, portable media
-workflow toolkit. Keep examples fictional and independent of any customer, lab,
+Read `security/BASELINE.md` before development. This is a public, MIT-licensed, portable
+media workflow toolkit. Keep examples fictional and independent of any customer, lab,
 hosting vendor or generation provider. Do not change repository visibility.
 
 The single maintained skill lives in `skills/media-workflow/`. Keep it portable:

@@ -38,6 +38,7 @@ class PackageTests(unittest.TestCase):
                 names = archive.namelist()
                 self.assertIn('skills/media-workflow/scripts/media_workflow.py', names)
                 self.assertIn('plugin.json', names)
+                self.assertIn('LICENSE', names)
                 self.assertIn('docs/VALIDATION.md', names)
                 self.assertIn('security/BASELINE.md', names)
                 self.assertIn('tools/build_package.py', names)
