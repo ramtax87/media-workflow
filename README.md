@@ -8,6 +8,23 @@ result, and saves the evidence in your Git repository.
 published to a plugin directory. Image providers and source assets keep their
 own terms; the licence covers this toolkit only, not media you create with it.
 
+## Proven in production
+
+Media Workflow was used with Codex to produce about 3,000 catalogue images for a
+private, simulated business platform: three restaurant menus, a fashion shop and a
+supermarket catalogue of roughly 2,800 products. Every approved image carries a
+record with its prompt hash, original hash, tool and review status.
+
+Review is the point. In one restaurant job, a "Smoky BBQ Burger" came back with a
+grilled chicken fillet. The review rejected it with that reason, kept the failed
+original, and regenerated it with a beef patty. The rejection record stays in the
+job history.
+
+**Recommended host: Codex**, which has built-in image generation, so the workflow
+runs end to end. With Claude Code, Cursor or another assistant, the skill still
+plans, sources, records and verifies; it uses whatever image tool you connect and
+reports clearly when none is available.
+
 ## Start with a prompt
 
 Paste this into an AI assistant that can read files, browse and generate images:
