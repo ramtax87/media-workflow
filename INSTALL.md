@@ -1,4 +1,4 @@
-# Private installation
+# Installation
 
 The repository works as a readable guide without installation. Its skill is
 self-contained, so copy the whole folder, including references, assets and
@@ -6,8 +6,7 @@ scripts. Do not install several copies into the same assistant.
 
 ## Download or clone
 
-Sign into a GitHub account with access to this private repository. Use GitHub's
-**Code → Download ZIP**, or:
+Use GitHub's **Code → Download ZIP**, or:
 
 ```text
 git clone https://github.com/ramtax87/media-workflow.git
@@ -58,7 +57,7 @@ around installation access.
 It includes only the package's documented source files, not `.git`, credentials,
 working jobs, source images or build leftovers. The manifest requests a local
 executor because workflow records and the optional helper use local files.
-Private packaging does not publish to a universal directory.
+Local packaging does not publish to a universal directory.
 
 ## Verification scope
 

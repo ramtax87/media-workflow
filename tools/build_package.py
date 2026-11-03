@@ -1,11 +1,11 @@
-"""Build a private install ZIP from a fixed source allowlist, never working jobs."""
+"""Build a local install ZIP from a fixed source allowlist, never working jobs."""
 import argparse
 import hashlib
 import json
 from pathlib import Path
 import zipfile
 
-FILES = ('plugin.json', 'README.md', 'INSTALL.md', 'AGENTS.md', 'requirements.lock',
+FILES = ('plugin.json', 'LICENSE', 'README.md', 'INSTALL.md', 'AGENTS.md', 'requirements.lock',
          '.agents/plugins/marketplace.json')
 DIRECTORIES = ('skills', 'templates', 'docs', 'security', 'tools', 'tests')
 

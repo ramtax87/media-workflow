@@ -4,9 +4,9 @@ Turn a short request into a complete, reviewable media job. The AI reads your
 website or item list, plans the assets, produces or prepares them, checks every
 result, and saves the evidence in your Git repository.
 
-**Private preview · 0.1.0.** This repository is a private GitHub template. It has
-not been published to a plugin directory. No public redistribution licence has
-been selected. Image providers and source assets keep their own terms.
+**Preview · 0.1.0.** Released under the [MIT License](LICENSE). It has not been
+published to a plugin directory. Image providers and source assets keep their
+own terms; the licence covers this toolkit only, not media you create with it.
 
 ## Start with a prompt
 
@@ -54,9 +54,9 @@ generating more. A valid checksum never counts as visual approval.
 
 | Route | What you do |
 | --- | --- |
-| **Any capable AI — simplest** | Clone/download this private repository, give the AI access to it, and tell it to read [SKILL.md](skills/media-workflow/SKILL.md). Then provide your prompt and destination repository. |
+| **Any capable AI — simplest** | Clone or download this repository, give the AI access to it, and tell it to read [SKILL.md](skills/media-workflow/SKILL.md). Then provide your prompt and destination repository. |
 | **Standalone skill** | Copy the complete `skills/media-workflow` folder into a skill location supported by your assistant. Current Codex documentation uses `~/.agents/skills/` or `<target-repository>/.agents/skills/`. Invoke `$media-workflow`. |
-| **Private plugin** | Use the included `plugin.json` and local marketplace. Follow [INSTALL.md](INSTALL.md). Installation remains separate from public publication. |
+| **Local plugin** | Use the included `plugin.json` and local marketplace. Follow [INSTALL.md](INSTALL.md). Installation remains separate from public publication. |
 
 This package supplies instructions, templates and a small Python helper. The host
 must provide website access, media generation/editing and visual/audio inspection.
